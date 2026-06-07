@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">ElectricityBillApp</string>
+    <string name="select_month">Select Month:</string>
+    <string name="rebate_percentage">Rebate Percentage</string>
+    <string name="enter_units">Enter Units (1-1000)</string>
+    <string name="save_bill">Save Bill</string>
+    <string name="total_label">Total: RM</string>
+    <string name="final_label">Final: RM</string>
+    <string name="view_history">View History</string>
+    <string name="about">About</string>
+
+    <string name="about_name">Nurul Fardina binti Noor Azmi</string>
+    <string name="about_info">ICT602 | CS240 | ID: 2025301517</string>
+    <string name="github_btn">Visit GitHub Repository</string>
+    <string name="instructions_title">INSTRUCTIONS</string>
+    <string name="instructions_body">1. Select your billing month from the menu.\n2. Enter electricity units (1-1000 kWh).\n3. Use the slider to define your rebate.\n4. Save your bill details to the local database.</string>
+    <string name="copyright">© 2026 Nurul Fardina. All Rights Reserved.</string>
+    <string name="open" />
+    <string name="close" />
+    <string name="app_logo" />
+    <string name="enter_units_1_1000" />
+
+    <string-array name="months_array">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+</resources>

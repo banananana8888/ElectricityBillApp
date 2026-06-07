@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#FAFAFA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/detailTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edit Electricity Bill"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp"
+            android:textColor="#212121" />
+
+        <EditText
+            android:id="@+id/editUnitsInput"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Enter Units (1-1000)"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="16dp"
+            android:padding="12dp"
+            android:background="@android:drawable/edit_text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Month"
+            android:layout_marginBottom="4dp"
+            android:textColor="#757575" />
+
+        <Spinner
+            android:id="@+id/editMonthSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:id="@+id/rebateText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rebate: 0%"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:textColor="#424242" />
+
+        <SeekBar
+            android:id="@+id/editRebateSlider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="5"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:id="@+id/resultPreview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rebate: RM 0.00 | Final: RM 0.00"
+            android:textColor="#1A237E"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginBottom="32dp"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/editBtn"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Save Changes"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="#1A237E"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/deleteBtn"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Delete Entry"
+            android:layout_marginBottom="12dp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#B00020" />
+
+        <Button
+            android:id="@+id/cancelBtn"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Cancel"
+            android:backgroundTint="#757575"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+</ScrollView>
